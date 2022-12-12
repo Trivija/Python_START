@@ -10,3 +10,40 @@
 3
 x < 0, y < 0
 """
+"""
+print("Введите номер четверти от 1 до 4")
+num = int(input())
+if num >= 1 and num <= 4:
+    if num == 1:
+        print(' x > 0 and y > 0')
+    if num == 2:
+        print(' x < 0 and y > 0')
+    if num == 3:
+        print('x < 0 and y < 0')
+    if num == 4:
+        print('x > 0 and y < 0')
+else:
+    print("Введите корректное значение номера четверти")
+    """
+"""
+a = int(input('Введите номер четверти в которой бы хотели узнать диапазон возможных координат: '))
+
+if a == 1:
+    print('В первой четверти - x > 0 y > 0')
+elif a == 2:
+    print('Во второй четверти - x < 0 y > 0')
+elif a == 3:
+    print('В третьей четверти - x < 0 y < 0')
+elif a == 4:
+    print('В четвертой четверти - x > 0 y < 0')
+else:
+    print('Такой четверти нет :(')
+    """
+
+quarter = int(input("Введите номер четверти "))
+
+if quarter == 1 : print("x > 0 y > 0")
+elif quarter == 2 : print("x < 0 y > 0")
+elif quarter == 3 : print("x < 0 y < 0")
+elif quarter == 4 : print("x > 0 y < 0")
+else : print("Неправильное число")
