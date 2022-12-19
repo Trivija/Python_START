@@ -14,3 +14,10 @@
 2
 10
 """
+
+number = int(input("Введите натуральное число: "))
+my_list = ""
+while number > 0:
+    my_list = str(number % 2) + my_list
+    number //= 2
+print(int(my_list))
