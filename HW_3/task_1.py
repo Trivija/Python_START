@@ -15,3 +15,5 @@
 my_list = [5, 1, 5, 2, 7, 11]
 print(sum(my_list[1::2]))
 
+
+
