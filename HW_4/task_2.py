@@ -23,3 +23,4 @@ my_list_sort = []
 
 my_list_sort = [i for i in my_list if (my_list.count(i)) == 1]
 print(my_list_sort)
+
