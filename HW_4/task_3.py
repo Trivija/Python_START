@@ -49,3 +49,5 @@ print(polynom2)
 
 with open('Polynomial2.txt', 'w') as data:
     data.write(polynom2)
+
+    
