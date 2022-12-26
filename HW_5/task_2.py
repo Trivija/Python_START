@@ -9,3 +9,25 @@
 a) Добавьте игру против бота
 b) Подумайте, как наделить бота простейшим "интеллектом"
 """
+
+while N > 0:
+    print(f'ходит {player}')
+    if player == 'bot':
+        if N % (K+1) != 0:
+            count_k = N % (K+1)
+        else:
+            count_k = K
+        print(f'bot забирает {count_k}')
+        N = N - count_k
+        print(f'осталось {N} конфет')
+        if N:
+            turn = not turn
+            player = players[turn]
+    else:
+        count_k = int(input('введите количество конфет:  '))
+        N = N - count_k
+        print(f'осталось {N} конфет')
+        if N:
+            turn = not turn
+            player = players[turn]
+print(f'выиграл {player}')
