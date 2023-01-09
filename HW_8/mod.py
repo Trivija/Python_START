@@ -3,6 +3,7 @@ import os
 from logger import log
 
 
+
 @log
 def get_people():
     if os.path.isfile('personal.csv'):

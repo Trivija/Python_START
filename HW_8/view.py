@@ -5,7 +5,6 @@ from logger import log
 def greetings():
     print('Список персонала')
 
-
 @log
 def show_menu():
     while True:
@@ -51,3 +50,4 @@ def show_upd_data():
 def show_del_data():
     value = int(input('Введите ID сотрудника для удаления.\n'))
     return value
+
