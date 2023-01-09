@@ -23,3 +23,4 @@ def start():
                 view.show_people(mod.get_people())
                 num = view.show_del_data()
                 mod.del_data(num)
+                
