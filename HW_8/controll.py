@@ -24,3 +24,5 @@ def start():
                 num = view.show_del_data()
                 mod.del_data(num)
                 
+
+                

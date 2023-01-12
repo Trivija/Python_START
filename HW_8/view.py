@@ -51,3 +51,4 @@ def show_del_data():
     value = int(input('Введите ID сотрудника для удаления.\n'))
     return value
 
+
