@@ -3,7 +3,6 @@ import os
 from logger import log
 
 
-
 @log
 def get_people():
     if os.path.isfile('personal.csv'):
@@ -13,7 +12,6 @@ def get_people():
     else:
         print("Список сотрудников в процессе создания")
         exit()
-
 
 @log
 def create_data(lst):
@@ -55,4 +53,5 @@ def del_data(num):
                 writer.writerow(i)
     except IndexError:
         print('Сотрудника с таким ID в списке нет')
+        
         

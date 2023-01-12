@@ -1,6 +1,5 @@
 from datetime import datetime
 
-
 def log(func):
     def wapper(*args):
         with open('log.csv', 'a', encoding='utf-8') as log_file:
