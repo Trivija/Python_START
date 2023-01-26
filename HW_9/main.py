@@ -73,3 +73,8 @@ app.add_handler(CommandHandler("rle", rle_coding))
 app.add_handler(CommandHandler("decod", decoding))
 
 app.run_polling()
+
+
+
+
+
